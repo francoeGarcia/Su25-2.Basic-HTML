@@ -1,0 +1,44 @@
+/*
+Some CSS changes include the type of font, font color, and for lists I changed their list marker.
+Also the indent selector is there to make visuals more appealing by indenting information
+*/
+
+/* header2 selector*/
+.header2{
+    font-family: "Courier New";
+    color: red;
+}
+/* first list selector*/
+#first{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    list-style-type: upper-roman;
+}
+/* second list selector*/
+#second{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown;
+    list-style-type: lower-latin;
+}
+/* third list selector*/
+#third{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    list-style-type:square;
+}
+/* fourth list selector*/
+#fourth{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkslategray;
+    list-style-type: circle;
+}
+/* nested list selector*/
+#nested{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkolivegreen;
+    list-style-type: upper-latin;
+}
+/* indent selector */
+.indent{
+    margin-left: 30px;
+}

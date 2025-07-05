@@ -1,0 +1,89 @@
+<!-- document type tag -->
+<!DOCTYPE html>
+
+<!-- html tag with english language specified-->
+<html lang="en">
+    <head>
+        <!-- Assignment 2.Basic HTML-->
+        <title>Basic HTML</title>
+
+        <meta charset="utf-8">
+        <!-- external cascading used to set list atributes and indent them -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+      
+        <!-- internal cascading used to change how body and paragraph elements look -->
+        <style>
+            body{
+                background-color: azure; /* change background color */
+            }
+            p{
+                font-family: sans-serif, monospace; /* change paragraph font and color */
+                color:coral;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <h2 class="header2"> This is a header </h2>
+
+        <!-- Paragraph -->
+        <p class="paragraph"> This is a paragraph</p>
+        <p class="paragraph"> And these are some lists:</p>
+
+        <!-- first list (ordered) -->
+         <ol class="indent" id="first">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+         </ol>
+        <!-- second list (ordered)-->
+        <ol class="indent" id="second">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+         </ol>
+
+        <!-- third list (unordered)-->
+        <ul class="indent" id="third">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+         </ul>
+
+        <!-- fourth list (ordered)-->
+        <ul class="indent" id="fourth">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+         </ul>        
+         <!-- fifth list (nested list)-->
+         <ol id="nested">
+             <li>
+                <!-- in-line cascading used to change list marker-->
+                <ul style="list-style-type: square;">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                 </ul>
+             </li>
+             <li>
+                <!-- in-line cascading used to change list marker and font family-->
+                <ul style="list-style-type: circle; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                 </ul>
+             </li>
+             <li>
+                <!-- in-line cascading used to change list marker and font family-->
+                <ul style="list-style-type: disc; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                 </ul>
+             </li>
+         </ol>
+    </body>
+</html>
